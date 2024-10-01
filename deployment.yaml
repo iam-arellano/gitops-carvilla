@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: c-carvilla
-        image: raemondarellano/carvilla:1.0.0-5
+        image: raemondarellano/carvilla-website:1.0.0-5
         ports:
         - containerPort: 80 
