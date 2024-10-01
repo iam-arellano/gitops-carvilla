@@ -4,7 +4,7 @@ metadata:
   name: service-carvilla
 spec:
   selector:
-    app: carvilla-app
+    app: app-carvilla
   type: LoadBalancer
   ports:
     - port: 80
