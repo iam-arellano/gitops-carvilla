@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment-carvilla:1.0.0-2
+  name: carvilla-deployment
   labels:
-    app: app-carvilla:1.0.0-2
+    app: carvilla-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: app-carvilla:1.0.0-2
+      app: carvilla-app
   template:
     metadata:
       labels:
-        app: app-carvilla:1.0.0-2
+        app: carvilla-app
     spec:
       containers:
       - name: c-carvilla:1.0.0-2
