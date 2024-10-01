@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-         APP_NAME = "carvilla"
+         APP_NAME = "carvilla-website"
     }
 
     stages {

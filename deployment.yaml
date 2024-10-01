@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment-carvilla:1.0.0-5
+  name: deployment-carvilla
   labels:
-    app: app-carvilla:1.0.0-5
+    app: app-carvilla
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: app-carvilla:1.0.0-5
+      app: app-carvilla
   template:
     metadata:
       labels:
-        app: app-carvilla:1.0.0-5
+        app: app-carvilla
     spec:
       containers:
-      - name: c-carvilla:1.0.0-5
+      - name: c-carvilla
         image: raemondarellano/carvilla:1.0.0-5
         ports:
         - containerPort: 80 
