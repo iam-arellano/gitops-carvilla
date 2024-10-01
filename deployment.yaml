@@ -15,7 +15,7 @@ spec:
         app: app-carvilla
     spec:
       containers:
-      - name: c-calculator
+      - name: c-carvilla
         image: raemondarellano/carvilla-app:1.0.0
         ports:
         - containerPort: 80 
